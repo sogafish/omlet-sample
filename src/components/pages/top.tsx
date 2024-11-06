@@ -1,4 +1,5 @@
 import { CustomButton } from "../custom-button";
+import { LargeComponent } from "../large-components";
 
 export function TopPage() {
   return (
@@ -9,6 +10,7 @@ export function TopPage() {
         onClick={() => console.info("!!!")}
         unusedProp={39}
       />
+      <LargeComponent />
     </div>
   );
 }
