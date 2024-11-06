@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "omlet": "pnpm dlx @omlet/cli init"
+    "omlet": "pnpm dlx @omlet/cli analyze"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.79.0",
